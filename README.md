@@ -5,6 +5,12 @@
 功能：首页/轮播/公告/商品列表/购物车/收藏/订单状态/售后/
 还有uni-app框架完成微信小程序、安卓、Ios三端开发
 
+#### 项目截图
+
+<img src="./screen/index.png" alt="..." height="350" width="200">
+<img src="./screen/login.png" alt="..." height="350" width="200">
+<img src="./screen/my.png" alt="..." height="350" width="200">
+<img src="./screen/shoppCart.png" alt="..." height="350" width="200">
 
 #### 开发环境
 windwos 7
