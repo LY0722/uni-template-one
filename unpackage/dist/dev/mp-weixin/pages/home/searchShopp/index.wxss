@@ -1,0 +1,5 @@
+
+.search-shopp-warp {
+  display: block;
+  min-height: 100vh;
+}

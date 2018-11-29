@@ -1,0 +1,51 @@
+<template name="2b71b15f">
+  <view class="_view data-v-0da3e680 my_wrap">
+    <view class="_view data-v-0da3e680 logo" bindtap="handleProxy" hover-class="{{!login ? 'logo-hover' : ''}}" data-eventid="{{'QzX-0'}}" data-comkey="{{$k}}">
+      <image class="_image data-v-0da3e680 logo-img" src="{{login ? uerInfo.avatarUrl :avatarUrl}}"></image>
+      <view class="_view data-v-0da3e680 logo-title">
+        <text class="_text data-v-0da3e680 uer-name">Hi，{{login ? uerInfo.name : '木木'}}</text>
+        <text class="_text data-v-0da3e680 iconfont login-icon-color" wx:if="{{!login}}"></text>
+      </view>
+    </view>
+    <view class="_view data-v-0da3e680 my-order">
+      <view class="_view data-v-0da3e680 my-order-title">
+        <text class="_text data-v-0da3e680">我的订单</text>
+      </view>
+      <view class="_view data-v-0da3e680 my-order-list">
+        <view class="_view data-v-0da3e680 my-order-item ">
+          <text class="_text data-v-0da3e680 iconfont my-order-icon"></text>
+          <text class="_text data-v-0da3e680 my-order-title">待付款</text>
+        </view>
+        <view class="_view data-v-0da3e680 my-order-item ">
+          <text class="_text data-v-0da3e680 iconfont my-order-icon"></text>
+          <text class="_text data-v-0da3e680 my-order-title">待发货</text>
+        </view>
+        <view class="_view data-v-0da3e680 my-order-item">
+          <text class="_text data-v-0da3e680 iconfont my-order-icon"></text>
+          <text class="_text data-v-0da3e680 my-order-title">待收货</text>
+        </view>
+        <view class="_view data-v-0da3e680 my-order-item ">
+          <text class="_text data-v-0da3e680 iconfont my-order-icon"></text>
+          <text class="_text data-v-0da3e680 my-order-title">已收货</text>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-0da3e680 center-list">
+      <view class="_view data-v-0da3e680 center-list-item border-bottom">
+        <text class="_text data-v-0da3e680 iconfont"></text>
+        <text class="_text data-v-0da3e680 list-text">我的收藏</text>
+        <text class="_text data-v-0da3e680 iconfont"></text>
+      </view>
+      <view class="_view data-v-0da3e680 center-list-item border-bottom">
+        <text class="_text data-v-0da3e680 iconfont"></text>
+        <text class="_text data-v-0da3e680 list-text">收货地址</text>
+        <text class="_text data-v-0da3e680 iconfont"></text>
+      </view>
+      <view class="_view data-v-0da3e680 center-list-item">
+        <text class="_text data-v-0da3e680 iconfont"></text>
+        <text class="_text data-v-0da3e680 list-text">关于我们</text>
+        <text class="_text data-v-0da3e680 iconfont"></text>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,22 @@
+<template name="5be970ce">
+  <view class="_view data-v-e5da828c container">
+    <view class="_view data-v-e5da828c page-body">
+      <scroll-view class="_scroll-view data-v-e5da828c nav-left" scroll-y>
+        <view class="_view data-v-e5da828c nav-left-item {{index == categoryActive ? 'active' : ''}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'ANU-0-'+index}}" data-comkey="{{$k}}" wx:for="{{categoryList}}" wx:for-index="index"
+          wx:for-item="item"> {{item.name}} </view>
+      </scroll-view>
+      <scroll-view class="_scroll-view data-v-e5da828c nav-right" scroll-y id="scrollDetails" scroll-top="{{scrollTop}}" bindscroll="handleProxy" data-eventid="{{'B0V-1'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-e5da828c nav-right-row">
+          <view id="{{index==0?'first':''}}" class="_view data-v-e5da828c nav-right-item" wx:key="item" key="{{item}}" wx:for="{{subCategoryList}}" wx:for-index="index" wx:for-item="item">
+            <view class="_view data-v-e5da828c right-item-img">
+              <image src="{{item.LOGO}}" class="_image data-v-e5da828c"></image>
+            </view>
+            <view class="_view data-v-e5da828c right-item-shopName">
+              <text class="_text data-v-e5da828c">{{item.name}}</text>
+            </view>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</template>

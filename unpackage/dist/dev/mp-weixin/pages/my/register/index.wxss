@@ -1,0 +1,59 @@
+
+.register-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding-top: 30rpx;
+}
+.input-view {
+  border-bottom: 3rpx solid #ddd;
+  background-color: #fff;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.label-view {
+  width: 140rpx;
+  height: 60rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-right: 30rpx;
+}
+.code-input {
+  width: 300rpx;
+}
+.getCode {
+  font-size: 35rpx;
+}
+.button-view {
+  margin-top: 50rpx;
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+._button.login {
+  background-color: #FF80AB;
+  width: 100%;
+  color: #fff;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 38rpx;
+  border: none;
+}
+.login.hover {
+  opacity: 0.6;
+}
