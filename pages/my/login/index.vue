@@ -105,15 +105,15 @@
 	}
 	
 	button.login {
-		background-color: #FF80AB;
+		background-color: #1296db;
 		color: #fff;
 	}
 	
 	button.register {
 		margin-top: 30upx;
-		color: #FF80AB;
+		color: #1296db;
 		background-color: #fff;
-		border-color: #FF80AB;
+		border-color: #1296db;
 		border-width: 2upx;
 	}
 	

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "shopp-list": "/components/shoppList/index"
+  }
+}

@@ -55,7 +55,7 @@
 	.shop-footer-item{
 	}
 	.settlement-btn{
-		background: #FF0871;
+		background: #1296db;
 		color: #fff;
 		border-radius: 0;
 		height: 90upx;

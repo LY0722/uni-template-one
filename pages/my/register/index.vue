@@ -90,7 +90,7 @@
 		flex-direction: column;
 	}
 	button.login {
-		background-color: #FF80AB;
+		background-color: #1296db;
 		width: 100%;
 		color: #fff;
 		line-height: 80upx;
